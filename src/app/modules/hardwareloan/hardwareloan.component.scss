@@ -1,0 +1,23 @@
+table {
+  width: 100%;
+}
+.mat-header-cell {
+  font-size: 16px;
+  color: #82a0e6;
+}
+span {
+  background-color: rgb(170, 223, 201);
+  color: rgb(41, 126, 90);
+  border-radius: 10px;
+  padding: 2px 7px 2px 7px;
+  font-size: small;
+  width: 20%;
+}
+.mat-form-field {
+  border-radius: 20px;
+  height: 30px;
+  background-color: white;
+  padding: 10px;
+  font-size: 14px;
+  width: 50%;
+}

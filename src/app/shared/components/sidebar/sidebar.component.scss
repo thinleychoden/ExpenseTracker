@@ -1,0 +1,21 @@
+:host {
+  .mat-icon {
+    vertical-align: middle;
+    margin-right: 10px;
+    color: #82a0e6;
+  }
+  .mat-list-item {
+    font-size: 14px;
+    height: 44px;
+    margin-bottom: 4px;
+  }
+  ::ng-deep {
+    .mat-list-item-content {
+      border-radius: 5px;
+      margin: 0 8px;
+      &:hover {
+        background-color: #f2f2ff;
+      }
+    }
+  }
+}
