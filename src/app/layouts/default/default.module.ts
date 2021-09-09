@@ -18,6 +18,9 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatTableModule } from '@angular/material/table';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import {MatCardModule} from '@angular/material/card';
+import { DeleteconfirmationComponent } from './../../modules/deleteconfirmation/deleteconfirmation.component';
+import { MatDialogModule } from '@angular/material/dialog';
+
 
 
 @NgModule({
@@ -27,8 +30,10 @@ import {MatCardModule} from '@angular/material/card';
     SalaryComponent,
     HardwareloanComponent,
     LeaveComponent,
-    LoandetailsComponent
+    LoandetailsComponent,
+    DeleteconfirmationComponent,
   ],
+  entryComponents: [DeleteconfirmationComponent],
   imports: [
     CommonModule,
     RouterModule,
@@ -42,7 +47,8 @@ import {MatCardModule} from '@angular/material/card';
     MatMenuModule,
     SharedModule,
     FlexLayoutModule,
-    MatButtonModule
+    MatButtonModule,
+    MatDialogModule
 
   ]
 })

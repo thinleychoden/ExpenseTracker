@@ -6,6 +6,7 @@ import { DefaultComponent } from './layouts/default/default.component';
 import { HardwareloanComponent } from './modules/hardwareloan/hardwareloan.component';
 import { LeaveComponent } from './modules/leave/leave.component';
 import { LoandetailsComponent } from './modules/loandetails/loandetails.component';
+import { DeleteconfirmationComponent } from './modules/deleteconfirmation/deleteconfirmation.component';
 
 const routes: Routes = [{
   path:'',
@@ -28,6 +29,10 @@ const routes: Routes = [{
   {
     path:'loandetails',
     component:LoandetailsComponent
+  },
+  {
+    path:'deleteconfirmation',
+    component:DeleteconfirmationComponent
   },
 ]
 }];

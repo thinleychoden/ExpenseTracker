@@ -1,6 +1,9 @@
+import { DeleteconfirmationComponent } from './../deleteconfirmation/deleteconfirmation.component';
 import { MatPaginator } from '@angular/material/paginator';
 import { Component, OnInit, ViewChild, AfterViewInit } from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
+import { Router } from '@angular/router';
+import { MatDialog } from '@angular/material/dialog';
 
 export interface PeriodicElement {
   employee: string;
@@ -45,9 +48,17 @@ export class SalaryComponent implements AfterViewInit {
   }
 
   @ViewChild(MatPaginator) paginator: MatPaginator;
-  constructor() {
+  constructor(private router: Router, public dialog: MatDialog) {
 
    }
+   onLoanDetails(){
+    this.router.navigate(['/loandetails'])
+  }
+  deleteButton(){
+    this.dialog.open(DeleteconfirmationComponent);
+
+  }
+
 
 
   ngAfterViewInit() {

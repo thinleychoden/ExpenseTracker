@@ -1,6 +1,7 @@
 import { Component, ViewChild, AfterViewInit } from '@angular/core';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatTableDataSource } from '@angular/material/table';
+import {Router} from '@angular/router';
 
 
 export interface PeriodicElement {
@@ -35,7 +36,10 @@ export class DashboardComponent implements AfterViewInit {
 
   
   
-  constructor() { }
+  constructor(private router: Router) {}
+  onViewDetails(){
+    this.router.navigate(['/loandetails'])
+  }
 
   ngAfterViewInit(){
     this.dataSource.paginator = this.paginator;

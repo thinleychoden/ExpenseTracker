@@ -1,12 +1,15 @@
 <mat-card>
+  <div mat-button (click)="backClicked()">
+    <mat-icon>arrow_back</mat-icon>
+  </div>
   <div fxLayout="row" fxLayoutGap="10px">
     <mat-icon class="profile">perm_identity</mat-icon>
-    <div class="margin-32">
+    <div class="margin-18">
       <h4>Kinley Zam</h4>
       <p>Backend Developer</p>
     </div>
   </div>
-  <div fxLayout="column" class="margin-32">
+  <div fxLayout="column" class="margin-18">
     <div fxFlex="80">
       <div fxLayout="row" class="margin-24">
         <div fxFlex="50">
@@ -42,7 +45,9 @@
       fxLayoutGap="10px"
     >
       <button mat-stroked-button color="primary">Edit</button>
-      <button mat-raised-button color="warn">Delete</button>
+      <button mat-raised-button color="warn" (click)="deleteButton()">
+        Delete
+      </button>
     </div>
   </div>
 </mat-card>

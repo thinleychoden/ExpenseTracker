@@ -51,11 +51,11 @@
             <mat-icon>more_vert</mat-icon>
           </button>
           <mat-menu #menu="matMenu">
-            <button mat-menu-item>
+            <button mat-menu-item (click)="onLoanDetails()">
               <mat-icon>visibility</mat-icon>
               <label>View</label>
             </button>
-            <button mat-menu-item>
+            <button mat-menu-item (click)="deleteButton()">
               <mat-icon>delete</mat-icon>
               <label>Delete</label>
             </button>
