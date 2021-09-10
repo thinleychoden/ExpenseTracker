@@ -21,8 +21,6 @@ import {MatCardModule} from '@angular/material/card';
 import { DeleteconfirmationComponent } from './../../modules/deleteconfirmation/deleteconfirmation.component';
 import { MatDialogModule } from '@angular/material/dialog';
 
-
-
 @NgModule({
   declarations: [
     DefaultComponent,
@@ -48,8 +46,7 @@ import { MatDialogModule } from '@angular/material/dialog';
     SharedModule,
     FlexLayoutModule,
     MatButtonModule,
-    MatDialogModule
-
+    MatDialogModule,
   ]
 })
 export class DefaultModule { }

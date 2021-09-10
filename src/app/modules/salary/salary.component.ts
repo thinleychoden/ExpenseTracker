@@ -14,20 +14,20 @@ export interface PeriodicElement {
 }
 
 const ELEMENT_DATA: PeriodicElement[] = [
-  {empno: 1, employee: 'Kinley Zam', increment:200, position:'Backend Developer', salary: 10079},
-  {empno: 2, employee: 'Kuenzang Choden', increment:200, position:'Backend Developer', salary: 40026},
-  {empno: 3, employee: 'Kinley Choki', increment:0, position:'Backend Developer', salary: 10079},
-  {empno: 4, employee: 'Krishna Prasad Sharma', increment:200, position:'Backend Developer', salary: 40026},
-  {empno: 5, employee: 'Eusang Lhaki Dorji', increment:200, position:'Backend Developer', salary: 10079},
-  {empno: 6, employee: 'Pema Tenzin', increment:200, position:'Backend Developer', salary: 40026},
-  {empno: 7, employee: 'Yeshi Wangmo', increment:100, position:'Backend Developer', salary: 10079},
-  {empno: 8, employee: 'Kuenzang Chophel', increment:200, position:'Backend Developer', salary: 40026},
-  {empno: 9, employee: 'Kinley Wangdi', increment:200, position:'Backend Developer', salary: 10079},
-  {empno: 10, employee: 'Dechen Choden', increment:200, position:'Backend Developer', salary: 40026},
-  {empno: 11, employee: 'Ugyen Choden', increment:200, position:'Backend Developer', salary: 10079},
-  {empno: 12, employee: 'Karma Dorji', increment:200, position:'Backend Developer', salary: 40026},
-  {empno: 13, employee: 'Tenzin Pelzang', increment:200, position:'Backend Developer', salary: 10079},
-  {empno: 14, employee: 'Dechen Wangmo', increment:200, position:'Backend Developer', salary: 40026},
+  {empno: 1, employee: 'Kinley Zam', increment:200, position:'Backend', salary: 10079},
+  {empno: 2, employee: 'Kuenzang Choden', increment:200, position:'Backend', salary: 40026},
+  {empno: 3, employee: 'Kinley Choki', increment:0, position:'Backend', salary: 10079},
+  {empno: 4, employee: 'Krishna Prasad Sharma', increment:200, position:'Backend', salary: 40026},
+  {empno: 5, employee: 'Eusang Lhaki Dorji', increment:200, position:'Backend', salary: 10079},
+  {empno: 6, employee: 'Pema Tenzin', increment:200, position:'Backend', salary: 40026},
+  {empno: 7, employee: 'Yeshi Wangmo', increment:100, position:'Backend', salary: 10079},
+  {empno: 8, employee: 'Kuenzang Chophel', increment:200, position:'Backend', salary: 40026},
+  {empno: 9, employee: 'Kinley Wangdi', increment:200, position:'Backend', salary: 10079},
+  {empno: 10, employee: 'Dechen Choden', increment:200, position:'Backend', salary: 40026},
+  {empno: 11, employee: 'Ugyen Choden', increment:200, position:'Backend', salary: 10079},
+  {empno: 12, employee: 'Karma Dorji', increment:200, position:'Backend', salary: 40026},
+  {empno: 13, employee: 'Tenzin Pelzang', increment:200, position:'Backend', salary: 10079},
+  {empno: 14, employee: 'Dechen Wangmo', increment:200, position:'Backend', salary: 40026},
   
 ];
 

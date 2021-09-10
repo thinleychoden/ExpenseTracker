@@ -12,11 +12,11 @@ export interface PeriodicElement {
 }
 
 const ELEMENT_DATA: PeriodicElement[] = [
-  {empno: 1, employee: 'Kinley Zam', position:'Backend Developer', salary: 10079},
-  {empno: 2, employee: 'Kuenzang Choden', position:'Backend Developer', salary: 40026},
-  {empno: 3, employee: 'Kinley Choki',  position:'Backend Developer', salary: 10079},
-  {empno: 4, employee: 'Krishna Prasad Sharma', position:'Backend Developer', salary: 40026},
-  {empno: 5, employee: 'Eusang Lhaki Dorji', position:'Backend Developer', salary: 10079},
+  {empno: 1, employee: 'Kinley Zam', position:'Backend', salary: 10079},
+  {empno: 2, employee: 'Kuenzang Choden', position:'Backend', salary: 40026},
+  {empno: 3, employee: 'Kinley Choki',  position:'Backend', salary: 10079},
+  {empno: 4, employee: 'Krishna Prasad Sharma', position:'Backend', salary: 40026},
+  {empno: 5, employee: 'Eusang Lhaki Dorji', position:'Backend', salary: 10079},
   
   
 ];
